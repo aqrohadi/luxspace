@@ -1,0 +1,26 @@
+php 7.4
+laravel 8
+
+Menjalankan : localhost:8000
+
+Updated :
+1. Dashboard admin mencoba tambah chart / card
+2. Updted ckeditor admin/product
+3. cart profil adress masih biasa form input ( belum termasuk generate country )
+4. pemilihan courir masih biasa manual form input ( belum termasuk format choose button )
+5. callback masih ke direct nginx
+6. my transaction di menu admin mustinya tidak ada
+7. alternate jika status tidak merubah otomatis via midtrans calback maka upload bukti tf yang dikirim email ke sistem, maka admin akan cek dan merubah status tsb.
+8. usahakan point di 7 ketika sudah melakukan pembayaran status auto success/settlement
+9. ini adalahwebtoko online product sederhana. include untuk semua barang jadi satu foldr. silahkan kalo mau improve kedalam kaatalog
+10. halaman profile dibenahi agar terlihat oke jetstream.
+11. halaman register masih public
+12. midtrans callback redirect after payment checkout/success ( contoh baik ada dilaracamp prod )
+
+Halaman Admin view role :
+1. Comman localhost:8000 Login pake akun admin
+
+Menjalankan ngrok untuk test sanbox:
+terminal vscode : php artisan serve
+terminal mac : ngrok http http://localhost:8000
+sett midtrans callback sanbox with ngrok : https://link-ngrok/checkout/success
