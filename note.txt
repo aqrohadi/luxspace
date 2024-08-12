@@ -2,6 +2,7 @@ php 7.4
 laravel 8
 
 Menjalankan : localhost:8000
+Storage link di public kulik agar gambar terlihat - apakah di storage:link ulang atau hanya menambahkan storage saja di public 
 
 Updated :
 1. Dashboard admin mencoba tambah chart / card
